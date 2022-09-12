@@ -1,12 +1,13 @@
-import { Box, Heading, Image, scaleFadeConfig } from "@chakra-ui/react";
+import { Box, Heading, Image } from "@chakra-ui/react";
 import React from "react";
 
 const SlideContent = ({ title, svg, imgWidth = "100%" }) => {
+  const headingHeight = "190px";
   return (
     <Box w="90%" height="100vh" mx="auto" scrollSnapAlign="start">
       <Heading
-        h="200px"
-        lineHeight="200px"
+        h={headingHeight}
+        lineHeight={headingHeight}
         textAlign="center"
         fontSize="5xl"
         fontWeight="normal"
@@ -17,7 +18,7 @@ const SlideContent = ({ title, svg, imgWidth = "100%" }) => {
       <Box w={imgWidth} mx="auto">
         <Image
           mx="auto"
-          h="calc(100vh - 220px)"
+          h="calc(100vh - 190px)"
           //   objectFit="cover"
           src={svg}
           alt=""

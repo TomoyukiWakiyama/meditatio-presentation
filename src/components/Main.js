@@ -85,18 +85,19 @@ const Main = () => {
         />
 
         <SlideContent
-          title="でも、ふと思い返してみる"
+          title="でも、ふと思い返してみた"
           svg={Kangaeru}
           imgWidth="40%"
         />
         <SlideContent
-          title="世の中に問題はたくさんある"
+          //   title="世の中に問題はたくさんある"
+          title="世の中にはいろんな問題がある"
           svg={Yononaka}
           imgWidth="40%"
         />
         <SlideContent title="自分のこと、他人のこと" svg={JibunTanin} />
         <SlideContent
-          title="人生に大切なことはいくつもある"
+          title="人生には大切なことがいくつもある"
           svg={House}
           imgWidth="40%"
         />
